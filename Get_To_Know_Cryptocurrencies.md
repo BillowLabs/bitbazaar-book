@@ -1,4 +1,4 @@
-Why Cryptocurrencies Rock!
+Get To Know Cryptocurrencies
 While the combindation of decentalization and cryptography are the definining characteristics of cryptocurrency, there are other interesting aspects of cryptocurrency that make it disruptive and exciting. However, there's no such thing as a free lunch, so it's important that we understand what the concequences are as well. Here are some really cool features of cryptocurrency in general:
 
 Anonymous (mostly)
