@@ -6,12 +6,12 @@ This book was created to:
 2. Teach a subject, to master a subject
 3. Provide maximum understanding, with minimal effort
 
-That last one warrants a bit more elaboration.  Cryptocurrencies can be complex, but understanding them does not need to be difficult or painful.  By the end of this book you will have a deep enough understanding to have meaningful conversations with anyone about cryptocurrencies.
+Cryptocurrencies can be complex, but understanding them does not need to be difficult or painful.  By the end of this book you will have a deep enough understanding to have meaningful conversations with anyone about cryptocurrencies.
 
 
 ### Learn About Cryptocurrencies
 
-This book is intended for anyone looking to *learn* about cryptocurrencies. This book is not intended to provide any investment advice or as a recommendation regarding a course of action. It is not a how to or instruction manual.  It is intended to provide information and illustrations for educational and entertainment purposes.
+This book is intended for anyone looking to *learn* about cryptocurrencies. This book is not intended to provide any investment advice or as a recommendation regarding a course of action. It is not a "how to" or instruction manual.  It is intended to provide information and illustrations for educational and entertainment purposes.
 
 
 ### A Living Book
@@ -20,11 +20,11 @@ This book will continually be edited, updated, and refined as needed and with fe
 
 This book is divided into categories:
 
- * Pages - single pages that can be read like a planned lesson
+ * Chapters - single pages that can be read like a planned lesson
  * Posts - news, updates, and information that doesn't fit in a trimmed lesson plan but readers *may* find interesting
 
 
 
 
 ### Lets get started with ...
-[Chapter 1 - What is a cryptocurrency?](./pages/01-what_is_cryptocurrency.md)
+[Chapter 1 - What is a cryptocurrency?](./chapters/01-what_is_cryptocurrency.md)
