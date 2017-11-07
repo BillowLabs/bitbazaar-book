@@ -1,7 +1,7 @@
-What is Cryptocurrency?
-When learning about cryptocurrency, it's easiest to start with why rather than what. So let's start with the following question:
+# What is Cryptocurrency?
+When learning about cryptocurrency, it's easiest to start with *why* rather than *what*. So let's start with the following question:
 
-How would you create a digital system where individuals could exchange cash?
+**How would you create a digital system where individuals could exchange cash?**
 
 You would need to:
 
