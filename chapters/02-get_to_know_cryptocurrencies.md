@@ -22,4 +22,4 @@ Unlike the US dollar today, which reprensents debt, or the US dollar in the past
 Supply
 Like gold or oil, most cryptocurrencies have a limited supply. They also produce new coins on a specific schedule. This has several intresting side-effects. First off, it means we can roughly calculate when the supply of new coins for a cryptocurrency will end. More importantly, it means that the supply can not be artifically increased by anyone or anything and therefore no one can control inflation or deflation by manipulating this supply. This is highly disruptive to how governments and large banks influence markets and is one of the most radical potential impacts of cryptocurrency.
 
-[Next Chapter - none](/index.md) | [Previous Chapter](01-what_is_cryptocurrency.md)
+[Next Chapter - none](./index.md) | [Previous Chapter](01-what_is_cryptocurrency.md)
