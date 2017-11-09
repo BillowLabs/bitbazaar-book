@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="../assets/index.css">
+<script src="../assets/index.js"></script>
+
 # An Intro to Cryptocurrency
 When learning about cryptocurrency, rather than starting with *what*, it's easiest to start with *why*. So let's start with the following question:
 

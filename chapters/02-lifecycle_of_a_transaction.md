@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="../assets/index.css">
+<script src="../assets/index.js"></script>
+
 # Lifecycle of a Transaction
 
 Here's a high level view of the steps in a cryptocurrency transaction and their primary functions.

@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="../assets/index.css">
+<script src="../assets/index.js"></script>
+
 # What is Cryptocurrency?
 
 While the combination of decentralization and cryptography are the defining characteristics of cryptocurrency, there are other interesting aspects of cryptocurrency that make it disruptive and exciting. However, there's no such thing as a free lunch, so it's important that we understand what the consequences are as well. Here are some really cool features of cryptocurrency in general:
