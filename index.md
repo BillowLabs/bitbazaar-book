@@ -27,4 +27,4 @@ This book is divided into categories:
 
 
 ### Lets get started with ...
-[Chapter 1 - What is a cryptocurrency?](./chapters/01-intro_to_cryptocurrency.md)
+[Chapter 1 - Intro to Cryptocurrency?](./chapters/01-intro_to_cryptocurrency.md)
