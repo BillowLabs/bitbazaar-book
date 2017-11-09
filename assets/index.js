@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   for (var i = 0; i < header.childNodes.length; i++) {
     child = header.childNodes[i]
-    if (child.className !== 'project-tagline' && child.className === 'btn') continue;
+    if (child.className !== 'project-tagline' && child.className !== 'btn') continue
     console.log('CHILD', child)
-    child.parentNode.removeChild(child)
+    header.removeChild(child)
   }
 
 })
