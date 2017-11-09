@@ -1,8 +1,4 @@
-<style>
-  .page-header {
-    background:black;
-  }
-</style>
+<link rel="stylesheet" type="text/css" href="asset/index.css">
 
 # Welcome to bitbook!
 
