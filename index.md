@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="asset/index.css">
+<link rel="stylesheet" type="text/css" href="assets/index.css">
 
 # Welcome to bitbook!
 
