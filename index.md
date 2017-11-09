@@ -26,7 +26,7 @@ This book will continually be edited, updated, and refined as needed and with fe
 
 This book is divided into categories:
 
- * Chapters - single pages that can be read like a planned lesson
+ * Chapters - single pages that can be read like a lesson
  * Posts - news, updates, and information that doesn't fit in a trimmed lesson plan but readers *may* find interesting
 
 
