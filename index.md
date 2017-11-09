@@ -1,3 +1,9 @@
+<style>
+  .page-header {
+    background:black;
+  }
+</style>
+
 # Welcome to bitbook!
 
 This book was created to:
