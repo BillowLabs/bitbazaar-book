@@ -1,5 +1,5 @@
-# What is Cryptocurrency?
-When learning about cryptocurrency, it's easiest to start with *why* rather than *what*. So let's start with the following question:
+# An Intro to Cryptocurrency
+When learning about cryptocurrency, rather than starting with *what*, it's easiest to start with *why*. So let's start with the following question:
 
 **How would you create a digital system where individuals could exchange cash?**
 
@@ -43,6 +43,8 @@ In order to confirm a transaction, a Miner must first preform a large mathematic
 
 In the process of confirming a transaction, a Miner also has the right to add an additional transaction that generates a specific number of "coins" and grants them to the Miner. This is the only way cryptographic coins can be created. These coins have real value as they represent the time, energy, and work put in to confirming a transaction. These coins are what we refer to as cryptocurrency.
 
-So now that you understand what why cryptocurrencies were invented and how they are created in broad strokes; we can go a bit deeper down the rabbit hole ...
+<br/>
 
-[Next: Get to know cryptocurrencies](02-get_to_know_cryptocurrencies.md) | [Previous](../index.md)
+So now that you understand *why* cryptocurrencies were invented, we can go a bit deeper down the rabbit hole and talk about the flow of a transaction.
+
+[Next: Lifecycle of a Transaction](02-lifecycle_of_a_transaction.md) | [Previous](../index.md)
