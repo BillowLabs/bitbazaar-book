@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
   for (var i = 0; i < header.childNodes.length; i++) {
     child = header.childNodes[i]
     if (child.className !== 'project-tagline' && child.className !== 'btn') continue
-    console.log('CHILD', child)
     header.removeChild(child)
   }
 
