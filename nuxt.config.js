@@ -16,9 +16,9 @@ module.exports = {
   generate: {
     dir: 'docs'
   },
-  // router: {
-  //     base: '/dist/'
-  //   },
+  router: {
+    base: '/bitbook/'
+  },
   /*
   ** Customize the progress bar color
   */
