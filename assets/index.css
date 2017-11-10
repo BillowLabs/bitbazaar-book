@@ -2,10 +2,10 @@
 	background:#666;
 }
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4 {
-	color: black;
+.page-header > .project-tagline, .page-header > a.btn {
+	display: none;
 }
 
-.project-tagline, .btn {
-	display: none;
+.main-content h1, .main-content h2, .main-content h3, .main-content h4 {
+	color: black;
 }
