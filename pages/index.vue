@@ -9,6 +9,7 @@
         Nuxt.js project
       </h2>
 
+      Blah Blah
       <router-link :to="{ name: 'chapters' }">Go to Chapters</router-link>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
