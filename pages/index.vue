@@ -9,7 +9,7 @@
         Nuxt.js project
       </h2>
 
-      <router-link :to="{ path: './chapters' }">Go to Chapters</router-link>
+      <a href="./chapters"> HERE </a>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
