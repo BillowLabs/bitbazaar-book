@@ -26,8 +26,23 @@
 <div id="index" class="container">
 
 	<main class="content" role="main">
+		<article class="{{post_class}}">
+			<div class="inner">
 
-		{{> "loop"}}
+				<section class="post-content">
+					{{#get "posts" slug="home" as |post|}}
+					  {{#post}}
+					  <h2>{{title}}</h2>
+					  <div class="post-content">
+					    {{content}}
+					  </div>
+					  {{/post}}
+					{{/get}}
+				</section>
+			</div>
+		</article>
+
+		<!-- {{> "loop"}} -->
 
 	</main>
 
