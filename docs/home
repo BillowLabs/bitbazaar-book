@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Welcome to bitbook!</title>
+
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css?v=f537d0ef18" />
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="canonical" href="home" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="http://localhost:2368/home/amp/" />
+    
+    <meta property="og:site_name" content="bitbook" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Welcome to bitbook!" />
+    <meta property="og:description" content="This book was created to: Give back to a growing community Teach a subject, to master a subject Provide maximum understanding, with minimal effort Cryptocurrencies can be complex, but understanding them does not need to be difficult or painful.  By the end of this book you will have a deep" />
+    <meta property="og:url" content="http://localhost:2368/home/" />
+    <meta property="og:image" content="https://casper.ghost.org/v1.0.0/images/welcome.jpg" />
+    <meta property="article:published_time" content="2017-11-10T07:59:42.000Z" />
+    <meta property="article:modified_time" content="2017-11-12T21:13:01.000Z" />
+    <meta property="article:tag" content="Getting Started" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Welcome to bitbook!" />
+    <meta name="twitter:description" content="This book was created to: Give back to a growing community Teach a subject, to master a subject Provide maximum understanding, with minimal effort Cryptocurrencies can be complex, but understanding them does not need to be difficult or painful.  By the end of this book you will have a deep" />
+    <meta name="twitter:url" content="http://localhost:2368/home/" />
+    <meta name="twitter:image" content="https://casper.ghost.org/v1.0.0/images/welcome.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Ghost" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Getting Started" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "bitbook",
+        "logo": "https://casper.ghost.org/v1.0.0/images/ghost-logo.svg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Ghost",
+        "url": "http://localhost:2368/author/ghost/",
+        "sameAs": []
+    },
+    "headline": "Welcome to bitbook!",
+    "url": "http://localhost:2368/home/",
+    "datePublished": "2017-11-10T07:59:42.000Z",
+    "dateModified": "2017-11-12T21:13:01.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://casper.ghost.org/v1.0.0/images/welcome.jpg",
+        "width": 1400,
+        "height": 933
+    },
+    "keywords": "Getting Started",
+    "description": "This book was created to: Give back to a growing community Teach a subject, to master a subject Provide maximum understanding, with minimal effort Cryptocurrencies can be complex, but understanding them does not need to be difficult or painful.  By the end of this book you will have a deep",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368/"
+    }
+}
+    </script>
+
+    <script type="text/javascript" src="public/ghost-sdk.js?v=f537d0ef18"></script>
+<script type="text/javascript">
+ghost.init({
+	clientId: "ghost-frontend",
+	clientSecret: "4042804e209e"
+});
+</script>
+    <meta name="generator" content="Ghost 1.17" />
+    <link rel="alternate" type="application/rss+xml" title="bitbook" href="rss/index.html" />
+</head>
+
+<body class="post-template tag-getting-started">
+	
+	<nav id="menu">
+	<a class="close-button">Close</a>
+	<div class="nav-wrapper">
+		<p class="nav-label">Menu</p>
+		<ul>
+			<li class="nav-home" role="presentation"><a href="index.html">Home</a></li>
+			<li class="nav-rss"><a href="rss/index.html"><i class="ic ic-rss"></i> Subscribe</a></li>
+		</ul>
+	</div>
+</nav>
+	
+	<section id="wrapper">
+		<a class="hidden-close"></a>
+		
+
+<div class="progress-container">
+	<span class="progress-bar"></span>
+</div>
+
+<header id="post-header" class="has-cover" >
+	<div class="inner">
+		<nav id="navigation">
+			<span class="blog-logo">
+				<a href="index.html"><img src="https://casper.ghost.org/v1.0.0/images/ghost-logo.svg" alt="Blog Logo" /></a>
+			</span>
+			<span id="menu-button" class="nav-button">
+				<a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+			</span>
+		</nav>
+		<h1 class="post-title">Welcome to bitbook!</h1>
+		<span class="post-meta"><a href="author/ghost/index.html">Ghost</a> | <time datetime="2017-11-10">10 Nov 2017</time></span>
+		<div class="post-cover cover" style="background-image: url('https://casper.ghost.org/v1.0.0/images/welcome.jpg');"></div>
+	</div>
+</header>
+
+<main class="content" role="main">
+	<article class="post tag-getting-started">
+		<div class="inner">
+		
+			<section class="post-content">
+				<div class="kg-card-markdown"><p>This book was created to:</p>
+<ol>
+<li>Give back to a growing community</li>
+<li>Teach a subject, to master a subject</li>
+<li>Provide maximum understanding, with minimal effort</li>
+</ol>
+<p>Cryptocurrencies can be complex, but understanding them does not need to be difficult or painful.  By the end of this book you will have a deep enough understanding to have meaningful conversations with anyone about cryptocurrencies.</p>
+<h3 id="learnaboutcryptocurrencies">Learn About Cryptocurrencies</h3>
+<p>This book is intended for anyone looking to <em>learn</em> about cryptocurrencies. This book is not intended to provide any investment advice or as a recommendation regarding a course of action. It is not a &quot;how to&quot; or instruction manual.  It is intended to provide information and illustrations for educational and entertainment purposes.</p>
+<h3 id="alivingbook">A Living Book</h3>
+<p>This book will continually be edited, updated, and refined as needed and with feedback from readers.  It will remain free and open to the community under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode">creative commons attribution license</a> which you can read about in a <a href="https://creativecommons.org/licenses/by-nd/4.0/">human readable version</a>.</p>
+<p>This book is divided into categories:</p>
+<ul>
+<li>Chapters - single pages that can be read like a lesson</li>
+<li>Posts - news, updates, and information that doesn't fit in a trimmed lesson plan but readers <em>may</em> find interesting</li>
+</ul>
+<h3 id="letsgetstartedwith">Lets get started with ...</h3>
+<p><a href="http://localhost:2368/home/chapters/01-intro_to_cryptocurrency.md">Chapter 1 - Intro to Cryptocurrency?</a></p>
+</div>
+			</section>
+			
+			<section class="post-info">
+				
+				<div class="post-share">
+					<a class="twitter" href="https://twitter.com/share?text=Welcome to bitbook!&url=http://localhost:2368/home/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+						<i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+					</a>
+					<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/home/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+						<i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+					</a>
+					<a class="googleplus" href="https://plus.google.com/share?url=http://localhost:2368/home/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+						<i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+					</a>
+					<div class="clear"></div>
+				</div>
+				
+				<aside class="post-tags">
+					<a href="tag/getting-started/index.html">Getting Started</a>
+				</aside>
+				
+				<div class="clear"></div>
+				
+				<aside class="post-author">
+					<div class="post-author-bio">
+						<h4 class="post-author-name"><a href="author/ghost/index.html">Ghost</a></h4>
+					</div>
+					<div class="clear"></div>
+				</aside>
+
+			</section>
+			
+
+			<section class="post-comments">
+				<a id="show-disqus" class="post-comments-activate">Show Comments</a>
+			    <div id="disqus_thread"></div>
+			</section>
+			
+
+			<aside class="post-nav">
+					<a class="post-nav-prev" href="the-editor/index.html">
+						<section class="post-nav-teaser">
+							<i class="ic ic-arrow-right"></i>
+							<h2 class="post-nav-title">Using the Ghost editor</h2>
+							<p class="post-nav-excerpt">Ghost uses a language called Markdown to format text. When you go&hellip;</p>
+						</section>
+					</a>
+				<div class="clear"></div>
+			</aside>
+
+
+		</div>
+	</article>
+</main>
+
+
+		<div id="body-class" style="display: none;" class="post-template tag-getting-started"></div>
+	
+		<footer id="footer">
+			<div class="inner">
+				<section class="credits">
+					<span class="credits-theme">Theme <a href="https://github.com/zutrinken/attila">Attila</a> by <a href="http://zutrinken.com" rel="nofollow">zutrinken</a></span>
+					<span class="credits-software">Published with <a href="http://ghost.org">Ghost</a></span>
+				</section>
+			</div>
+		</footer>
+	</section>
+
+	<script type="text/javascript" src="assets/js/script.js?v=f537d0ef18"></script>
+
+	
+
+</body>
+</html>
