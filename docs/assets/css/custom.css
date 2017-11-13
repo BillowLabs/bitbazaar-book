@@ -1,3 +1,7 @@
 .menu-button {
   border: none !important;
 }
+
+#blog-header.has-cover, #post-header.has-cover {
+  padding: 2em 0 3em;
+}

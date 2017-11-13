@@ -4,20 +4,20 @@ A content focused responsive theme for [Ghost](http://github.com/tryghost/ghost/
 
 ## Demo
 
-* [Blog](http://attila.zutrinken.com/)
-* [Post](http://attila.zutrinken.com/demo/)
-* [Tag Archive](http://attila.zutrinken.com/tag/general/)
-* [Author Archive](http://attila.zutrinken.com/author/zutrinken/)
+* [Blog](http://custom.zutrinken.com/)
+* [Post](http://custom.zutrinken.com/demo/)
+* [Tag Archive](http://custom.zutrinken.com/tag/general/)
+* [Author Archive](http://custom.zutrinken.com/author/zutrinken/)
 
 ## Screenshots
 
 <table>
 <tr>
 <td valign="top">
-<img src="https://raw.githubusercontent.com/zutrinken/attila/master/src/screenshot-desktop.jpg" />
+<img src="https://raw.githubusercontent.com/zutrinken/custom/master/src/screenshot-desktop.jpg" />
 </td>
 <td valign="top">
-<img src="https://raw.githubusercontent.com/zutrinken/attila/master/src/screenshot-mobile.jpg" />
+<img src="https://raw.githubusercontent.com/zutrinken/custom/master/src/screenshot-mobile.jpg" />
 </td>
 </tr>
 </table>
@@ -55,4 +55,4 @@ Build Grunt project:
 
 ## Copyright & License
 
-Copyright (C) 2015-2017 Peter Amende - Released under the [MIT License](https://github.com/zutrinken/attila/blob/master/LICENSE).
+Copyright (C) 2015-2017 Peter Amende - Released under the [MIT License](https://github.com/zutrinken/custom/blob/master/LICENSE).

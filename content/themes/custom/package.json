@@ -1,7 +1,7 @@
 {
-	"name": "attila",
+	"name": "custom",
 	"description": "Ghost Theme",
-	"demo": "http://attila.zutrinken.com",
+	"demo": "http://custom.zutrinken.com",
 	"version": "1.4.0",
 	"engines": {
 		"ghost": ">=1.0.0"
@@ -29,7 +29,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/zutrinken/attila.git"
+		"url": "https://github.com/zutrinken/custom.git"
 	},
 	"devDependencies": {
 		"autoprefixer-core": "^5.2.1",

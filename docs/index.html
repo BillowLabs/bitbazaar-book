@@ -9,8 +9,8 @@
 	<meta name="HandheldFriendly" content="True" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css?v=65ae823c7f" />
-	<link rel="stylesheet" type="text/css" href="assets/css/custom.css?v=65ae823c7f" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css?v=ff7f9b922f" />
+	<link rel="stylesheet" type="text/css" href="assets/css/custom.css?v=ff7f9b922f" />
 
 	<meta name="description" content="Thoughts, stories and ideas." />
     <link rel="shortcut icon" href="favicon.png" type="image/png" />
@@ -60,7 +60,7 @@
 }
     </script>
 
-    <script type="text/javascript" src="public/ghost-sdk.js?v=65ae823c7f"></script>
+    <script type="text/javascript" src="public/ghost-sdk.js?v=ff7f9b922f"></script>
 <script type="text/javascript">
 ghost.init({
 	clientId: "ghost-frontend",
@@ -74,15 +74,46 @@ ghost.init({
 <body class="home-template">
 
 	<nav id="menu">
+	<script>
+	window.onload = function() {
+		var path = window.location.pathname
+		path = path.substring(1, path.length -1)
+
+		var current = document.getElementsByClassName("nav-"+path)[0]
+		if (!current) return
+
+		current.className += ' active'
+	}
+	</script>
+
 	<a class="close-button">Close</a>
 	<div class="nav-wrapper">
-		<p class="nav-label">Menu</p>
+		<p class="nav-label">Chapters</p>
 		<ul>
-			<li class="nav-home active" role="presentation"><a href="index.html">Home</a></li>
-			<li class="nav-rss"><a href="rss/index.html"><i class="ic ic-rss"></i> Subscribe</a></li>
+
+			<li class="nav-home active" role="presentation">
+				<a href="index.html">Home</a>
+
+
+				<li class="nav-01" role="presentation">
+					<a href="01/index.html">An Intro to Cryptocurrency</a>
+				</li>
+				<li class="nav-02" role="presentation">
+					<a href="02/index.html">Lifecycle of a Transaction</a>
+				</li>
+				<li class="nav-03" role="presentation">
+					<a href="03/index.html">What is Cryptocurrency?</a>
+				</li>
+
+
+			<!--
+			<li class="nav-rss"><a href="http://localhost:2368/rss/"><i class="ic ic-rss"></i> Subscribe</a></li>
+			-->
+
 		</ul>
 	</div>
 </nav>
+
 
 	<section id="wrapper">
 		<a class="hidden-close"></a>
@@ -93,7 +124,7 @@ ghost.init({
 				<a href="index.html"><img src="content/images/2017/11/logo-1.png" alt="Blog Logo" /></a>
 			</span>
 			<span id="menu-button" class="nav-button">
-				<a class="menu-button"> Menu</a>
+				<a class="menu-button">Chapters</a>
 			</span>
 		</nav>
 		<h1 class="blog-name"><a href="index.html">bitbook</a></h1>
@@ -105,7 +136,7 @@ ghost.init({
 <div id="index" class="container">
 
 	<main class="content" role="main">
-		<article class="post">
+
 			<div class="inner">
 
 				<section class="post-content">
@@ -121,19 +152,13 @@ ghost.init({
 <h3 id="learnaboutcryptocurrencies">Learn About Cryptocurrencies</h3>
 <p>This book is intended for anyone looking to <em>learn</em> about cryptocurrencies. This book is not intended to provide any investment advice or as a recommendation regarding a course of action. It is not a &quot;how to&quot; or instruction manual.  It is intended to provide information and illustrations for educational and entertainment purposes.</p>
 <h3 id="alivingbook">A Living Book</h3>
-<p>This book will continually be edited, updated, and refined as needed and with feedback from readers.  It will remain free and open to the community under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode">creative commons attribution license</a> which you can read about in a <a href="https://creativecommons.org/licenses/by-nd/4.0/">human readable version</a>.</p>
-<p>This book is divided into categories:</p>
-<ul>
-<li>Chapters - single pages that can be read like a lesson</li>
-<li>Posts - news, updates, and information that doesn't fit in a trimmed lesson plan but readers <em>may</em> find interesting</li>
-</ul>
+<p>This book will remain free and open to the community under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode">creative commons attribution license</a> which you can read about in a <a href="https://creativecommons.org/licenses/by-nd/4.0/">human readable version</a>.  It will continually be edited, updated, and refined as needed and with feedback from readers and new information.  The book is divided into mini chapters which are single pages that can be read like a lesson.</p>
 <h3 id="letsgetstartedwith">Lets get started with ...</h3>
-<p><a href="http://localhost:2368/chapters/01-intro_to_cryptocurrency.md">Chapter 1 - Intro to Cryptocurrency?</a></p>
+<p><a href="http://localhost:2368/01">An Intro to Cryptocurrency?</a></p>
 </div>
 					  </div>
 				</section>
 			</div>
-		</article>
 
 		<!-- <div class="extra-pagination">
 	<nav class="pagination" role="pagination">
@@ -145,106 +170,46 @@ ghost.init({
 </div>
 
 
-<article class="post tag-getting-started">
+<article class="post tag-chapter">
 	<div class="inner">
 		<header class="post-header">
-			<h2 class="post-title"><a href="/home/">Welcome to bitbook!</a></h2>
-			<span class="post-meta"><a href="/author/ghost/">Ghost</a>  on <a href="/tag/getting-started/">Getting Started</a> | <time datetime="2017-11-10">10 Nov 2017</time></span>
+			<h2 class="post-title"><a href="/03/">What is Cryptocurrency?</a></h2>
+			<span class="post-meta"><a href="/author/bitbook/">bitbook</a>  on <a href="/tag/chapter/">Chapter</a> | <time datetime="2017-11-13">13 Nov 2017</time></span>
 			<div class="clear"></div>
 		</header>
 
 		<section class="post-excerpt">
-			<p>This book was created to: Give back to a growing community Teach a subject, to master a subject Provide maximum understanding, with minimal effort Cryptocurrencies can be complex, but understanding them does not need to be difficult or painful.  By the end of this book you will have a deep&hellip;</p>
+			<p>While the combination of decentralization and cryptography are the defining characteristics of cryptocurrency, there are other interesting aspects of cryptocurrency that make it disruptive and exciting. However, there's no such thing as a free lunch, so it's important that we understand what the consequences are as well. Here are some&hellip;</p>
 		</section>
 	</div>
 </article>
 
 
-<article class="post tag-getting-started">
+<article class="post tag-chapter">
 	<div class="inner">
 		<header class="post-header">
-			<h2 class="post-title"><a href="/the-editor/">Using the Ghost editor</a></h2>
-			<span class="post-meta"><a href="/author/ghost/">Ghost</a>  on <a href="/tag/getting-started/">Getting Started</a> | <time datetime="2017-11-10">10 Nov 2017</time></span>
+			<h2 class="post-title"><a href="/02/">Lifecycle of a Transaction</a></h2>
+			<span class="post-meta"><a href="/author/bitbook/">bitbook</a>  on <a href="/tag/chapter/">Chapter</a> | <time datetime="2017-11-13">13 Nov 2017</time></span>
 			<div class="clear"></div>
 		</header>
 
 		<section class="post-excerpt">
-			<p>Ghost uses a language called Markdown to format text. When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you&hellip;</p>
+			<p>Here's a high level view of the steps in a cryptocurrency transaction and their primary functions. Node State Requires client software for the cryptocurrency of choice Wallet with the users key pairs (i.e. security keys) Potentially some transactions (from broadcast, mining, etc.) Start Transaction Create a new transaction with&hellip;</p>
 		</section>
 	</div>
 </article>
 
 
-<article class="post tag-getting-started">
+<article class="post tag-chapter">
 	<div class="inner">
 		<header class="post-header">
-			<h2 class="post-title"><a href="/using-tags/">Organising your content with tags</a></h2>
-			<span class="post-meta"><a href="/author/ghost/">Ghost</a>  on <a href="/tag/getting-started/">Getting Started</a> | <time datetime="2017-11-10">10 Nov 2017</time></span>
+			<h2 class="post-title"><a href="/01/">An Intro to Cryptocurrency</a></h2>
+			<span class="post-meta"><a href="/author/bitbook/">bitbook</a>  on <a href="/tag/chapter/">Chapter</a> | <time datetime="2017-11-13">13 Nov 2017</time></span>
 			<div class="clear"></div>
 		</header>
 
 		<section class="post-excerpt">
-			<p>Ghost has a single, powerful organisational taxonomy, called tags. It doesn't matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of&hellip;</p>
-		</section>
-	</div>
-</article>
-
-
-<article class="post tag-getting-started">
-	<div class="inner">
-		<header class="post-header">
-			<h2 class="post-title"><a href="/managing-users/">Managing Ghost users</a></h2>
-			<span class="post-meta"><a href="/author/ghost/">Ghost</a>  on <a href="/tag/getting-started/">Getting Started</a> | <time datetime="2017-11-10">10 Nov 2017</time></span>
-			<div class="clear"></div>
-		</header>
-
-		<section class="post-excerpt">
-			<p>Ghost has a number of different user roles for your team Authors The base user level in Ghost is an author. Authors can write posts, edit their own posts, and publish their own posts. Authors are trusted users. If you don't trust users to be allowed to publish their own&hellip;</p>
-		</section>
-	</div>
-</article>
-
-
-<article class="post tag-getting-started">
-	<div class="inner">
-		<header class="post-header">
-			<h2 class="post-title"><a href="/private-sites/">Making your site private</a></h2>
-			<span class="post-meta"><a href="/author/ghost/">Ghost</a>  on <a href="/tag/getting-started/">Getting Started</a> | <time datetime="2017-11-10">10 Nov 2017</time></span>
-			<div class="clear"></div>
-		</header>
-
-		<section class="post-excerpt">
-			<p>Sometimes you might want to put your site behind closed doors If you've got a publication that you don't want the world to see yet because it's not ready to launch, you can hide your Ghost site behind a simple shared pass-phrase. You can toggle this preference on at the&hellip;</p>
-		</section>
-	</div>
-</article>
-
-
-<article class="post tag-getting-started">
-	<div class="inner">
-		<header class="post-header">
-			<h2 class="post-title"><a href="/advanced-markdown/">Advanced Markdown tips</a></h2>
-			<span class="post-meta"><a href="/author/ghost/">Ghost</a>  on <a href="/tag/getting-started/">Getting Started</a> | <time datetime="2017-11-10">10 Nov 2017</time></span>
-			<div class="clear"></div>
-		</header>
-
-		<section class="post-excerpt">
-			<p>There are lots of powerful things you can do with the Ghost editor If you've gotten pretty comfortable with all the basics of writing in Ghost, then you may enjoy some more advanced tips about the types of things you can do with Markdown! As with the last post about&hellip;</p>
-		</section>
-	</div>
-</article>
-
-
-<article class="post tag-getting-started">
-	<div class="inner">
-		<header class="post-header">
-			<h2 class="post-title"><a href="/themes/">Setting up your own Ghost theme</a></h2>
-			<span class="post-meta"><a href="/author/ghost/">Ghost</a>  on <a href="/tag/getting-started/">Getting Started</a> | <time datetime="2017-11-10">10 Nov 2017</time></span>
-			<div class="clear"></div>
-		</header>
-
-		<section class="post-excerpt">
-			<p>Creating a totally custom design for your publication Ghost comes with a beautiful default theme called Casper, which is designed to be a clean, readable publication layout and can be easily adapted for most purposes. However, Ghost can also be completely themed to suit your needs. Rather than just giving&hellip;</p>
+			<p>When learning about cryptocurrency, rather than starting with what, it's easiest to start with why. So let's start with the following question: How would you create a digital system where individuals could exchange cash? You would need to: Support accounts, balances, and transactions Determine if a transaction is legitimate Prevent&hellip;</p>
 		</section>
 	</div>
 </article>
@@ -266,14 +231,16 @@ ghost.init({
 		<footer id="footer">
 			<div class="inner">
 				<section class="credits">
-					<span class="credits-theme">Theme <a href="https://github.com/zutrinken/attila">Attila</a> by <a href="http://zutrinken.com" rel="nofollow">zutrinken</a></span>
+					<span class="credits-theme">Custom Theme based on <a href="https://github.com/zutrinken/custom">Attila</a> by <a href="http://zutrinken.com" rel="nofollow">zutrinken</a></span>
 					<span class="credits-software">Published with <a href="http://ghost.org">Ghost</a></span>
 				</section>
 			</div>
 		</footer>
+
+
 	</section>
 
-	<script type="text/javascript" src="assets/js/script.js?v=65ae823c7f"></script>
+	<script type="text/javascript" src="assets/js/script.js?v=ff7f9b922f"></script>
 
 	
 
