@@ -74,9 +74,6 @@ window.onload = function() {
 					<div class="clear"></div>
 				</div>
 
-				<aside class="post-tags">
-					{{tags separator=" "}}
-				</aside>
 
 				<div class="clear"></div>
 
@@ -123,28 +120,6 @@ window.onload = function() {
                 <p>Get the latest posts delivered right to your inbox.</p>
             </section>
             {{/if}}
-
-			<aside class="post-nav">
-				{{#next_post}}
-					<a class="post-nav-next" href="{{url}}">
-						<section class="post-nav-teaser">
-							<i class="ic ic-arrow-left"></i>
-							<h2 class="post-nav-title">{{title}}</h2>
-							<p class="post-nav-excerpt">{{excerpt words="12"}}&hellip;</p>
-						</section>
-					</a>
-				{{/next_post}}
-				{{#prev_post}}
-					<a class="post-nav-prev" href="{{url}}">
-						<section class="post-nav-teaser">
-							<i class="ic ic-arrow-right"></i>
-							<h2 class="post-nav-title">{{title}}</h2>
-							<p class="post-nav-excerpt">{{excerpt words="12"}}&hellip;</p>
-						</section>
-					</a>
-				{{/prev_post}}
-				<div class="clear"></div>
-			</aside>
 
 
 		</div>

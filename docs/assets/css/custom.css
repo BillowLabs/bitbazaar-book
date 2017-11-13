@@ -5,3 +5,15 @@
 #blog-header.has-cover, #post-header.has-cover {
   padding: 2em 0 3em;
 }
+
+.blog-name {
+  padding-top: 20px;
+}
+
+.blog-description {
+  display: none;
+}
+
+.post-title {
+  padding-top: 30px;
+}
