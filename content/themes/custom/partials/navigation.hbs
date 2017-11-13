@@ -1,16 +1,4 @@
 <nav id="menu">
-	<script>
-	window.onload = function() {
-		var path = window.location.pathname
-		path = path.substring(1, path.length -1)
-
-		var current = document.getElementsByClassName("nav-"+path)[0]
-		if (!current) return
-
-		current.className += ' active'
-	}
-	</script>
-
 	<a class="close-button">Close</a>
 	<div class="nav-wrapper">
 		<p class="nav-label">Chapters</p>
@@ -47,4 +35,12 @@
 
 		</ul>
 	</div>
+
+	<script>
+		var path = window.location.pathname
+		path = path.substring(1, path.length -1).replace('index.html', '')
+
+		var current = document.getElementsByClassName("nav-"+path)[0]
+		if (current) current.className += ' active'
+	</script>
 </nav>
