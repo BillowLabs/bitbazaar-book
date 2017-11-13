@@ -102,8 +102,8 @@ ghost.init({
 	</div>
 
 	<script>
-		var path = window.location.pathname
-		path = path.substring(1, path.length -1).replace('index.html', '')
+		var path = window.location.pathname.replace('index.html', '')
+		path = path.substring(1, path.length -1)
 
 		var current = document.getElementsByClassName("nav-"+path)[0]
 		if (current) current.className += ' active'
