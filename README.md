@@ -10,6 +10,3 @@ npm install
 
 npm start
 npm run generate
-
-
-Rename project to "blog"
